@@ -8,7 +8,8 @@ The user scans the barcode and suggestion results is displayed to the user.
 Platform: Android Studio, Visual Studio, Database: Firebase, MongoDB
 
 Specification, Analysis, High Level Design, Low Level Design and Final Reports as well as source codes are available. 
-Demo video is available upon request.
+
+Demo video is available; https://drive.google.com/file/d/0B7t17a_fx7-ZR0k2YmdHZTZNOFE/view?usp=sharing
 
 Contributors: Cüneyt EREM, Mert Gürcan, Kaan Kale, Doğukan Kaya, Melih Sancak  
 
