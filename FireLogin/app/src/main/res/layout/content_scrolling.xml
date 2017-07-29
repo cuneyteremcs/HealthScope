@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.firelogin.ProfileActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Name and Surname"
+            android:id="@+id/textView1"
+            android:layout_width="280dip"
+            android:layout_height="30dip"/>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Name and Surname (etc: John Smith)" />
+
+        <TextView
+            android:text="Age"
+            android:id="@+id/textView2"
+            android:layout_width="280dip"
+            android:layout_height="30dip"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Age (etc: 21)" />
+
+        <TextView
+            android:text="Height"
+            android:id="@+id/textView3"
+            android:layout_width="280dip"
+            android:layout_height="30dip"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Height cm (etc: 180)" />
+
+        <TextView
+            android:text="Weight"
+            android:id="@+id/textView4"
+            android:layout_width="280dip"
+            android:layout_height="30dip"/>
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Weight kg (etc: 70)" />
+
+        <TextView
+            android:text="Please select gender"
+            android:id="@+id/textView6"
+            android:layout_width="280dip"
+            android:layout_height="30dip"/>
+
+        <RadioGroup
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="female"
+                android:onClick="onRadioButtonClicked"/>/>
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="male"
+                android:onClick="onRadioButtonClicked"/>/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:text="Please check the disease you have"/>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="diabetes" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hearthdisease" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cholesterol" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="diet" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dip"
+            android:text="Save"
+            android:background="@color/color4"
+            android:theme="@style/ThemeOverlay.MyDarkButton"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:background="@color/color4"
+            android:theme="@style/ThemeOverlay.MyDarkButton"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:text="--------------"
+            android:id="@+id/textView11"
+            android:layout_width="80dip"
+            android:layout_height="60dip"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

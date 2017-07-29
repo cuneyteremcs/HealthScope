@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color1">
+
+    <TextView
+        android:text="CONTENT"
+        android:id="@+id/textView"
+        android:layout_width="280dip"
+        android:layout_height="30dip"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="  Energy"
+            android:id="@+id/textView1"
+            android:layout_width="200dip"
+            android:layout_height="30dip"/>
+
+        <TextView
+            android:text="Edit Energy"
+            android:id="@+id/textEdit1"
+            android:layout_width="200dip"
+            android:layout_height="30dip"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="  Protein"
+            android:id="@+id/textView2"
+            android:layout_width="200dip"
+            android:layout_height="30dip"/>
+
+        <TextView
+            android:text="Edit Protein"
+            android:id="@+id/textEdit2"
+            android:layout_width="200dip"
+            android:layout_height="30dip"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="  Fat"
+            android:id="@+id/textView3"
+            android:layout_width="200dip"
+            android:layout_height="30dip"/>
+
+        <TextView
+            android:text="Edit Fat"
+            android:id="@+id/textEdit3"
+            android:layout_width="200dip"
+            android:layout_height="30dip"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="  Carbohydrates"
+            android:id="@+id/textView4"
+            android:layout_width="200dip"
+            android:layout_height="30dip"/>
+
+        <TextView
+            android:text="Edit Carbohydrates"
+            android:id="@+id/textEdit4"
+            android:layout_width="200dip"
+            android:layout_height="30dip"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="  Sugars"
+            android:id="@+id/textView5"
+            android:layout_width="200dip"
+            android:layout_height="30dip"/>
+
+        <TextView
+            android:text="Edit Sugars"
+            android:id="@+id/textEdit5"
+            android:layout_width="200dip"
+            android:layout_height="30dip"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dip"
+        android:text="Scan new barcode"
+        android:background="@color/color4"
+        android:theme="@style/ThemeOverlay.MyDarkButton"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back to Main MEnu"
+        android:background="@color/color4"
+        android:theme="@style/ThemeOverlay.MyDarkButton"/>
+
+</LinearLayout>
