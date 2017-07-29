@@ -10,4 +10,7 @@ Platform: Android Studio, Visual Studio, Database: Firebase, MongoDB
 Specification, Analysis, High Level Design, Low Level Design and Final Reports as well as source codes are available. 
 Demo video is available upon request.
 
-Contributors: Cüneyt EREM, Mert Gürcan, Kaan Kale, Doğukan Kaya, Melih Sancak
+Contributors: Cüneyt EREM, Mert Gürcan, Kaan Kale, Doğukan Kaya, Melih Sancak  
+
+
+
